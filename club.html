@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KIIT CLUBS </title>
+    <link rel=icon href="assets/img/logo.png" sizes="20x20" type="image/png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="assets/css/magnific.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        .rounded-container {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            width: 80%;              /* Responsive width */
+            max-width: 500px;         /* Maximum width for larger screens */
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 600px) {
+            .rounded-container {
+                padding: 15px;       /* Adjust padding for smaller screens */
+                font-size: 0.9em;    /* Slightly smaller text */
+            }
+        }
+        .rounded-img {
+    border-radius: 15px; /* Adjust the value as needed */
+    width: 100%; /* Ensures the image takes full width of its container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+    </style>
+</head>
+<body>
+    <!-- cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <!-- cursor End -->
+     
+    <!-- search popup start-->
+    <div class="td-search-popup" id="td-search-popup">
+        <form action="index.html" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- search popup end-->
+    <div class="body-overlay" id="body-overlay"></div>
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-area navbar-area-3 navbar-border navbar-expand-lg">
+        <div class="container nav-container px-lg-0">
+            <div class="responsive-mobile-menu">
+                <button class="menu toggle-btn d-block d-lg-none" data-target="#xdyat" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-left"></span>
+                    <span class="icon-right"></span>
+                </button>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="xdyat_main_menu">
+                <ul class="navbar-nav menu-open ps-lg-5 pe-xl-4 text-center">
+                    <li class="menu-item-has-children">
+                       
+                        <ul class="sub-menu">
+                           
+                        </ul>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                 
+                   
+                   
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="admin/admin_login.php">Admin Login</a></li>
+                    <li><a href="clubadmin/admin_login.php">Club Admin Login</a></li>
+                </ul>
+            </div>
+            <div class="nav-right-part nav-right-part-desktop d-lg-inline-flex align-item-center">
+                <div class="header-search search-bar-btn  d-inline-block me-3">
+                    <button>
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.25 8.625C16.25 10.4219 15.6641 12.1016 14.6875 13.4297L19.6094 18.3906C20.1172 18.8594 20.1172 19.6797 19.6094 20.1484C19.1406 20.6562 18.3203 20.6562 17.8516 20.1484L12.8906 15.1875C11.5625 16.2031 9.88281 16.75 8.125 16.75C3.63281 16.75 0 13.1172 0 8.625C0 4.17188 3.63281 0.5 8.125 0.5C12.5781 0.5 16.25 4.17188 16.25 8.625ZM8.125 14.25C11.2109 14.25 13.75 11.75 13.75 8.625C13.75 5.53906 11.2109 3 8.125 3C5 3 2.5 5.53906 2.5 8.625C2.5 11.75 5 14.25 8.125 14.25Z" fill="white"/>
+                        </svg>
+
+                   
+                </div>
+                <div class="header-search cart-btn  d-inline-block me-3">
+               
+            </div>
+                
+                <div class="btn-box d-inline-block">
+                    <button class="me-3 header-menu-toggle bg-transparent border-0 shadow-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasright" aria-controls="offcanvasright">
+                        <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0V3H24V0H0ZM24 21H16V18H24V21ZM24 12H8V9H24V12Z" fill="#fff" />
+                        </svg>
+                    </button>
+                    <a class="btn btn-main style-small" href="index.html#target-section">
+                        <span>
+                            <span>
+                                <img src="assets/img/btn-arrow.png" alt="img">
+                                ~  
+                            </span>
+                            <span>Clubs</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- off canvas -->
+    <div class="offcanvas offcanvas-menu-wrap offcanvas-end" tabindex="-1" id="offcanvasright">
+        <div class="offcanvas-menu-inner">
+            <button type="button" class="offcanvas-icon" data-bs-dismiss="offcanvas" aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path></svg>
+            </button>
+            <div class="sidebar-inner">
+                <div class="thumb">
+                    <img src="assets/img/logo.png" alt="logo">
+                </div>
+                <p>-----------------------------------</p>
+                <p>------------------------------------</p>
+                <div class="sidebar-address">
+                    <h4 class="mb-3">Contact Us</h4>
+                    <ul>
+                        <li><i class="fa fa-map-marker-alt"></i>India</li>
+                        <li><i class="fa fa-envelope"></i>email@demo.com</li>
+                        <li><i class="fa fa-phone"></i>0000000000</li>
+                    </ul>
+                </div>
+                <ul class="social-media social-media-light">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- off canvas end -->
+
+
+    <!-- page title start -->
+    <div class="breadcrumb-area bg-cover" style="background-image: url('assets/img/bg/4.png');">
+        <div class="container">
+            <div class="breadcrumb-inner">
+                <h2 class="page-title"><span>KORUS</span></h2>
+                <ul class="page-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Korus</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- page title end -->
+ <!-- tournament-details area start -->
+ <div class="tournament-details-area pd-top-120 pd-bottom-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="team-details-page-content">
+                    <div class="row mb-4">
+                        
+                            <center>   
+                                <div class="rounded-container">
+                                    <img class="w-100 rounded-img" src="https://img.freepik.com/free-vector/student-club-abstract-concept-illustration-student-organization-university-interest-club-after-school-activity-program-college-association-professional-hobby-society_335657-3493.jpg" alt="img">
+                                </div>
+                            </center>
+                       
+                        <div class="col-md-6">
+                            <div class="thumb mb-2 pb-1">
+                                
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="info-meta d-lg-flex justify-content-lg-between align-self-center">
+                        <h3 class="tt-capitalize mobile-medium"><img src="assets/img/team/info1.png" alt="img"> About Korus</h3>
+                        <a class="btn btn-base" href="register.html">Become Member</a>
+                    </div>
+                    <div class="price-meta">
+                        <div class="row">
+                        
+                            <div class="col-md-3 col-6">
+                                <span class="tt-uppercase">Events Condcuted</span> <br>
+                                <span class="tt-uppercase"><i class="fa fa-clock me-2"></i> 1</span>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <span class="tt-uppercase">Social</span> <br>
+                           
+                              
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                
+
+
+
+                            </div>
+                            
+                            <div class="col-lg-6 text-md-end mt-md-0 mt-3">
+                                <div class="team-share d-inline-block">
+                                    <a href="#"><i class="fa fa-share-alt"></i></a>
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="details mt-4 mb-4">
+                        <p>Korus is the official “Music and Dance Society” of KIIT. Korus, has the aim to produce talents from the hub of KSAC. As studies can’t make a student all perfect, Korus helps them to get exposures in the field of Music and Dance. Korus gives the students all the opportunities to make them better. This society provides them Platforms to show their talent and enrich themselves with experience and self confidence. Music and Dance gives a student break from their daily boring life and Korus provides a good way to utilize this passion for their future establishment.   </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="tt-uppercase mb-3">Club <span class="color-base">Info</span></h4>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="game-info bg-box border-box border-radius-10 p-4 mb-4">
+                                <div class="d-flex align-self-center justify-content-between mb-5">
+                                    <img src="assets/img/icon/8.png" alt="img">
+                                    <div class="img">
+                                        <img src="assets/img/icon/11.png" alt="img">
+                                    </div>
+                                </div>
+                                <h4 class="mb-1">Total Members</h4>
+                                <span class="color-base">20 Members</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="game-info bg-box border-box border-radius-10 p-4 mb-4">
+                                <div class="d-flex align-self-center justify-content-between mb-5">
+                                    <img src="assets/img/icon/8.png" alt="img">
+                                    <div class="img">
+                                        <img src="assets/img/icon/11.png" alt="img">
+                                    </div>
+                                </div>
+                                <h4 class="mb-1">Total Members</h4>
+                                <span class="color-base">20 Members</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="game-info bg-box border-box border-radius-10 p-4 mb-4">
+                                <div class="d-flex align-self-center justify-content-between mb-5">
+                                    <img src="assets/img/icon/8.png" alt="img">
+                                    <div class="img">
+                                        <img src="assets/img/icon/11.png" alt="img">
+                                    </div>
+                                </div>
+                                <h4 class="mb-1">Total Members</h4>
+                                <span class="color-base">20 Members</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 pe-xl-5 mt-lg-0 mt-4">
+                <div class="widget widget-tournament-contact">
+                    <div class="border-bottom-1 pb-2 mb-4">
+                        <h3 class="border-left-base tt-uppercase ps-3 mobile-medium"><span class="color-base">Contact with </span><br> Club </h3>
+                    </div>
+                    <form action="process_club.php" method="POST">
+                        <div class="single-input-inner style-border style-bg">
+                            <label class="mb-2">Your Name *</label>
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+
+                   
+
+
+                        <div class="single-input-inner style-border style-bg">
+                            <label class="mb-2">Email *</label>
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+
+                      
+                        
+                        <div class="single-input-inner style-border style-bg">
+                            <label class="mb-2">Roll No. *</label>
+                            <input type="text" name="roll_number" placeholder="Your Roll Number" required>
+                        </div>
+                       
+                        <div class="single-input-inner style-border style-bg">
+                            <label class="mb-2">Your Inquiry*</label>
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+
+                    
+
+
+                       
+                        
+                        <button type="submit" class="btn btn-base border-radius-0 w-100 mt-2">Submit Inquiry</button>
+                    </form>
+                </div>
+
+
+
+
+
+
+
+                            
+                <div class="widget widget-trending-match">
+                    <h3 class="title">trending MEMBERS</h3>
+                    <ul>
+                        <li>
+                            <div class="thumb">
+                                <img src="assets/img/about/about.png" alt="img">
+                            </div>
+                            <div class="details">
+                                <h4>M 1</h4>
+                                <span class="color-base"><img src="assets/img/1.png" alt="img"> ---</span>
+                                <img class="right-icon" src="assets/img/icon/11.png" alt="img">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumb">
+                                <img src="assets/img/about/about.png" alt="img">
+                            </div>
+                            <div class="details">
+                                <h4>M 2</h4>
+                                <span class="color-base"><img src="assets/img/1.png" alt="img">---</span>
+                                <img class="right-icon" src="assets/img/icon/11.png" alt="img">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumb">
+                                <img src="assets/img/about/about.png" alt="img">
+                            </div>
+                            <div class="details">
+                                <h4>M 3</h4>
+                                <span class="color-base"><img src="assets/img/1.png" alt="img">---</span>
+                                <img class="right-icon" src="assets/img/icon/11.png" alt="img">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- tournament-details area end -->
+
+<!-- schedule-details area start -->
+<div class="schedule-details-area bg-gray-black pd-top-100 pd-bottom-120">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    
+                    <h2 class="title">Groups</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="game-info bg-box border-box border-radius-10 p-4 mb-4">
+                    <div class="d-flex align-self-center justify-content-between">
+                        <div class="left-content">
+                            <span class="mb-1 color-base tt-uppercase">Bhangra Knights</span>
+                            <h6>Group Head :- XYZ</h6>
+                        </div>
+                        <div class="thumb">
+                            <img src="assets/img/icon/12.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="game-info bg-box border-box border-radius-10 p-4 mb-4">
+                    <div class="d-flex align-self-center justify-content-between">
+                        <div class="left-content">
+                            <span class="mb-1 color-base tt-uppercase">Bhangra Knights</span>
+                            <h6>Group Head :- XYZ</h6>
+                        </div>
+                        <div class="thumb">
+                            <img src="assets/img/icon/12.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="game-info bg-box border-box border-radius-10 p-4 mb-4">
+                    <div class="d-flex align-self-center justify-content-between">
+                        <div class="left-content">
+                            <span class="mb-1 color-base tt-uppercase">Bhangra Knights</span>
+                            <h6>Group Head :- XYZ</h6>
+                        </div>
+                        <div class="thumb">
+                            <img src="assets/img/icon/12.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+    <!-- roadmap-area start -->
+    <div class="roadmap-area pd-top-120 pd-bottom-90 bg-cover" style="background-image: url('assets/img/creator/bg2.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 align-self-center">
+                    <div class="section-title">
+                        <h6 class="sub-title split_chars">Scehdule <img class="ms-2" src="assets/img/icon/shalep-1.png" alt="img"></h6>
+                        <h2 class="title mb-4 move-line-3d">Events Scehdule</h2>
+                        <nav class="roadmap-tab fade-slide bottom" data-delay="0.2">
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                                   Event 1 
+                                   <img src="assets/img/icon/7.png" alt="img">                                  
+                                </button>
+                                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                   Event 2
+                                    <img src="assets/img/icon/7.png" alt="img">
+                                </button>
+                            </div>
+                        </nav>
+                        <div class="tab-content fade-slide bottom" data-delay="0.4" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <p>Event 1 had done well . </p>
+                                <p>
+                                    <svg 
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="18.25px" height="18.25px">
+                                        <path fill-rule="evenodd"  stroke="rgb(38, 46, 56)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="rgb(221, 242, 71)"
+                                        d="M8.750,0.748 C13.168,0.748 16.750,4.331 16.750,8.748 C16.750,13.166 13.168,16.748 8.750,16.748 C4.332,16.748 0.750,13.166 0.750,8.748 C0.750,4.331 4.332,0.748 8.750,0.748 Z"/>
+                                    </svg>
+                                  Winners  get rewards & coupons .
+                                </p>
+                                <div class="btn-box d-block">
+                                    <a class="btn btn-main style-small" href="register.html">
+                                        <span>
+                                            Register Now !
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <p>Event 2 will have good things</p>
+                                <p>
+                                    <svg 
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="18.25px" height="18.25px">
+                                        <path fill-rule="evenodd"  stroke="rgb(38, 46, 56)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="rgb(221, 242, 71)"
+                                        d="M8.750,0.748 C13.168,0.748 16.750,4.331 16.750,8.748 C16.750,13.166 13.168,16.748 8.750,16.748 C4.332,16.748 0.750,13.166 0.750,8.748 C0.750,4.331 4.332,0.748 8.750,0.748 Z"/>
+                                    </svg>
+                                    You will get rewards & coupons .
+                                </p>
+                                <div class="btn-box d-block">
+                                    <a class="btn btn-main style-small" href="#">
+                                        <span>
+                                            Regsiter Now !
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-slide bottom" data-delay="0.2">
+                    <div class="single-roadmap-inner">
+                        <img class="shape-img" src="assets/img/roadmap/bg.png" alt="img">
+                        <div class="roadmap-content">
+                            <img class="main-img" src="assets/img/roadmap/2.svg" alt="img">
+                            <h3>Event 1</h3>
+                            <ul>
+                                <li><span class="active"></span> ----------</li>
+                                <li><span class="active"></span> ----------</li>
+                                <li><span class="active"></span> ----------</li>
+                                <li><span class="active"></span> ----------</li>
+                            </ul>
+                            <div class="text-center divide-shape">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="278px" height="3px">
+                                    <path fill-rule="evenodd"  fill="#0a0909"
+                                    d="M139.000,-0.002 C215.767,-0.002 278.000,0.670 278.000,1.498 C278.000,2.327 215.767,2.999 139.000,2.999 C62.232,2.999 -0.000,2.327 -0.000,1.498 C-0.000,0.670 62.232,-0.002 139.000,-0.002 Z"/>
+                                </svg>
+                            </div>
+                            <h4>Season  1</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-slide bottom" data-delay="0.3">
+                    <div class="single-roadmap-inner">
+                        <img class="shape-img" src="assets/img/roadmap/bg.png" alt="img">
+                        <div class="roadmap-content">
+                            <img class="main-img" src="assets/img/roadmap/2.svg" alt="img">
+                            <h3>Event 2</h3>
+                            <ul>
+                                <li><span class="active"></span> ----------</li>
+                                <li><span class="active"></span> ----------</li>
+                                <li><span class="active"></span> ----------</li>
+                                <li><span class="active"></span> ----------</li>
+
+                            </ul>
+                            <div class="text-center divide-shape">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="278px" height="3px">
+                                    <path fill-rule="evenodd"  fill="#0a0909"
+                                    d="M139.000,-0.002 C215.767,-0.002 278.000,0.670 278.000,1.498 C278.000,2.327 215.767,2.999 139.000,2.999 C62.232,2.999 -0.000,2.327 -0.000,1.498 C-0.000,0.670 62.232,-0.002 139.000,-0.002 Z"/>
+                                </svg>
+                            </div>
+                            <h4>Season  2</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- roadmap-area end --> 
+   <!-- team area start -->
+   <div class="team-area pd-top-120">
+    <div class="container">
+        <div class="section-title text-center">
+            <h6 class="sub-title split_chars">Our team</h6>
+            <h2 class="title move-line-3d">meet our members
+            </h2>
+            <img class="mt-3" src="assets/img/icon/shalep-1.png" alt="img">
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 fade-slide bottom" data-delay="0.2">
+                <div class="single-advisors-inner">
+                    <br>
+                    
+
+                    <img src="assets/img/about/about.png" alt="img">
+                    <br>
+                    <br>
+                    <div class="details">
+                        <br>
+                        <h5 class="name">Member 1</h5>
+                        <span class="designation">--</span>
+                        <div class="social-list text-end">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 fade-slide bottom" data-delay="0.3">
+                <div class="single-advisors-inner">
+                    <br>
+                    <br>
+
+                    <img src="assets/img/about/about.png" alt="img">
+                    <br>
+                    <br>
+                    <div class="details">
+                        <h5 class="name">Member 2</h5>
+                        <span class="designation">--</span>
+                        <div class="social-list text-end">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 fade-slide bottom" data-delay="0.4">
+                <div class="single-advisors-inner">
+                    <br>
+                    <br>
+
+                    <img src="assets/img/about/about.png" alt="img">
+                    <br>
+                    <br>
+                    <div class="details">
+                        <h5 class="name">Member 3</h5>
+                        <span class="designation">--</span>
+                        <div class="social-list text-end">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 fade-slide bottom" data-delay="0.5">
+                <div class="single-advisors-inner">
+                    <br>
+                    <br>
+
+                    <img src="assets/img/about/about.png" alt="img">
+                    <br>
+                    <br>
+                    <div class="details">
+                        <h5 class="name">Member 4</h5>
+                        <span class="designation">--</span>
+                        <div class="social-list text-end">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- team area end -->
+
+    <!-- testimonial-area start -->
+    <div class="testimonial-area pd-top-110 pd-bottom-110">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center">
+                        <h6 class="sub-title split_chars">Our Testimonial</h6>
+                        <h2 class="title move-line-3d">Happy Member Quotes</h2>
+                        <img class="mt-3" src="assets/img/icon/shalep-1.png" alt="img">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 fade-slide bottom" data-delay="0.2">
+                    <div class="single-testimonial-inner">
+                        <div class="date d-flex justify-content-between">
+                            <div class="rounded-container">
+                                <img class="w-100 rounded-img" src="https://img.freepik.com/free-vector/student-club-abstract-concept-illustration-student-organization-university-interest-club-after-school-activity-program-college-association-professional-hobby-society_335657-3493.jpg" alt="img">
+                            </div>
+                               <span>AUG 10 ,2024</span>
+                        </div>
+                        <p>“Very Good Club Very Good Club Very Good Club Very Good Club Very Good Club” </p>
+                        <div class="author d-flex align-item-center">
+                            <div class="thumb me-3">
+                                <img src="assets/img/about/about.png" alt="img">
+                            </div>
+                            <div class="details align-self-center">
+                                <h4 class="name">XYZ 1</h4>
+                                <span class="designation">--</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-slide bottom" data-delay="0.3">
+                    <div class="single-testimonial-inner">
+                        <div class="date d-flex justify-content-between">
+                            <div class="rounded-container">
+                                <img class="w-100 rounded-img" src="https://img.freepik.com/free-vector/student-club-abstract-concept-illustration-student-organization-university-interest-club-after-school-activity-program-college-association-professional-hobby-society_335657-3493.jpg" alt="img">
+                            </div>    <span>AUG 10,2024</span>
+                        </div>
+                        <p>“Very Good Club Very Good Club Very Good Club Very Good Club Very Good Club” </p>
+                        <div class="author d-flex align-item-center">
+                            <div class="thumb me-3">
+                                <img src="assets/img/about/about.png" alt="img">
+                            </div>
+                            <div class="details align-self-center">
+                                <h4 class="name">XYZ 2</h4>
+                                <span class="designation">--</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-slide bottom" data-delay="0.4">
+                    <div class="single-testimonial-inner">
+                        <div class="date d-flex justify-content-between">
+                            <div class="rounded-container">
+                                <img class="w-100 rounded-img" src="https://img.freepik.com/free-vector/student-club-abstract-concept-illustration-student-organization-university-interest-club-after-school-activity-program-college-association-professional-hobby-society_335657-3493.jpg" alt="img">
+                            </div>  <span>AUG 10,2024</span>
+                        </div>
+                        <p>“Very Good Club Very Good Club Very Good Club Very Good Club Very Good Club” </p>
+                         <div class="author d-flex align-item-center">
+                            <div class="thumb me-3">
+                                <img src="assets/img/about/about.png" alt="img">
+                            </div>
+                            <div class="details align-self-center">
+                                <h4 class="name">XYZ 3</h4>
+                                <span class="designation">--</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonial-area end -->
+
+  
+
+   
+  
+    <!-- footer area start -->
+    <footer class="footer-area footer-area-2 text-center bg-cover" style="background-image: url('./assets/img/footer/bg-2.png');">
+        <div class="container">
+            <div class="footer-top">
+                <a class="footer-logo" href="index.html">
+                    <img src="assets/img/logo.png" alt="img">
+                </a>
+                <p>+91 000-000-000-0<br><span>hardikgupta8792@gmail.com</span></p>
+                <center>  <ul class="p-0 m-0">
+                    
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="about.html">About Us</a></li>
+                    
+                    <li> <a href="contact.html">Contact</a></li>
+                
+                </ul>
+            </center>
+                <img src="assets/img/footer/line.png" alt="img">
+            </div>
+            <p class="copyright">©2024–by <span>Hardik Gupta</span> © All Rights Reserved </p>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+
+    <!-- all plugins here -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/magnific.min.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/counter-up.min.js"></script>
+    <script src="assets/js/waypoint.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/lenis.min.js"></script>
+
+    <!-- main js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
